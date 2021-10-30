@@ -1,0 +1,35 @@
+
+<body class="bd">
+
+    <input type="button" value="getMasterAccount(l2r)" onclick="getMasterAccount('l2r')" style="background-color:green"><br>
+    <input type="button" value="getMasterAccount(gtaSamp)" onclick="getMasterAccount('gtaSamp')" style="background-color:green"><br>
+    <br>
+    
+    <input type="button" value="getGameAccounts(l2r)" onclick="getGameAccounts('l2r','test_callback_function')" style="background-color:green"><br>
+    <input type="button" value="getGameAccounts(gtaSamp)" onclick="getGameAccounts('gtaSamp','test_callback_function')" style="background-color:green"><br>
+    <br>
+    
+    Создание игрового аккаунта
+    <table>
+    <tbody><tr><td>Login: <input type="text" id="login"></td><td>Password: <input type="text" id="password"></td>
+    <td><input type="button" onclick="createGameAccount('l2r','test_callback_function')" value="Create Game account" style="background-color:green"></td>
+    </tr>
+    </tbody></table>
+    
+    <br>
+    
+    
+    <input type="button" value="getGameServers(l2r) - нет в api игоря" onclick="getGameServers('l2r')" style="background-color:yellow"><br>
+    <input type="button" value="getGameServers(gtaSamp) - нет в api игоря" onclick="getGameServers('gtaSamp')" style="background-color:yellow"><br>
+    <br>
+    
+    <input type="button" value="getUserBalanceAmount('test_callback_function')" onclick="getUserBalanceAmount('test_callback_function')" style="background-color:green"><br>
+    <br>
+    
+    <table>
+    <tbody><tr><td>Key: <input type="text" id="key"></td><td>Value: <input type="text" id="value"></td>
+    <td><input type="button" onclick="add_to_user_settings()" value="Add to User settings" style="background-color:green"></td>
+    </tr>
+    </tbody></table>
+    
+    <br>
